@@ -40,8 +40,8 @@
 		<div class="widget Header" data-version="2" id="Header1">
             <div class="header image-placement-behind no-image">
                 <div class="container">
-                    <h1><a href="">Webublogoverflow Tutorial</a></h1>
-                    <p>Webublogoverflow</p>
+                    <h1><a href="">Tragazón CUCEI</a></h1>
+                    <p>Texto ejemplo</p>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="#">Webublogoverflow</a>
+			<a class="navbar-brand" href="#">Tragazón CUCEI</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
             </button>
@@ -59,18 +59,18 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
 						<a class="nav-link" href="#">
-							Home
+							Principal
 							<span class="sr-only">(current)</span>
 						</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Acerca de</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
                 
@@ -78,13 +78,12 @@
                     <div class="section" id="b-section-navbar-search-form" name="Navbar: search form">
                         <div class="widget BlogSearch" data-version="2" id="BlogSearch1">
                             <form action="" class="form-inline">
-                                <input aria-label="Search this blog" class="form-control mr-sm-2" name="q" placeholder="Search this blog" type="text">
-                                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                
+								<input aria-label="Search this blog" class="form-control mr-sm-2" name="q" placeholder="Search this blog" type="text">
+								<button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+							</form>
+						</div>
+					</div>
+				</div>  
             </div>
         </div>
     </nav>
@@ -99,8 +98,8 @@
 
 			<!-- Blog Entries Column -->
             <div class="col-md-8">
-				<h1 class="my-4">Kilimanjaro park
-					<small>mbuga za wanyama</small>
+				<h1 class="my-4">Comida del día <br>
+					<small>Publicaciones recientes</small>
 				</h1>
 				
 				<!-- Aqui va el contenido de los post -->
