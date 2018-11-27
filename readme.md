@@ -35,6 +35,17 @@ Fin.
 ## Dependencias y librerias usadas:
 
 * Faker PHP library
+* Scheduler in laravel
+* Cron
+* mailtrap
+* Laravel Collective
+* Carbon (php extension)
+
+## Tareas a programar
+
+* Task Scheduling (in laravel)
+* queues (in laravel; optional)
+* Middlewares(
 
 ## Lista de commits
 
@@ -76,8 +87,8 @@ Se espera un sistema web utilizando Laravel como framework de desarrollo.
 - [ ] Realizar autenticación de usuarios mediante correo y contraseña.
 - [ ] Validar toda información que se reciba a partir de una formulario.
 - [ ] Implementar al menos dos middlewares: auth() y uno personalizado.
-- [ ] Implementar al menos en una ocasión Gates y Policies **Solo si se ve en clase**
-- [ ] **Extra:** Passport / Socialite
+- [ ] Implementar al menos en una ocasión Gates y Policies **Solo si se ve en clase** (opcional)
+- [ ] **Extra:** Passport / Socialite (opcional)
 
 ### GUI
 

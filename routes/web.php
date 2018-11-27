@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-	return view('posts.index');
+ Route::get('/home', function () {
+	return view('test-profile');
 });
+
