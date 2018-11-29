@@ -50,12 +50,9 @@
 
             <!-- Sidebar Widgets Column -->
             @yield('sidebar')
-
+			
         </div>
-        <!-- /.row -->
-
     </div>
-    <!-- /.container -->
 
     <!--footer-->
     @yield('footer')

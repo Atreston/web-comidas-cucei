@@ -33,7 +33,17 @@
 						</form>
 					</div>
 				</div>
-			</div>  
+			</div>
+			
+			<div class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Sesión
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="#">Iniciar Sesión</a>
+					<a class="dropdown-item" href="#">Registrarse</a>
+				</div>
+			
 		</div>
 	</div>
 </nav>

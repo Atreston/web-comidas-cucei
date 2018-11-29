@@ -5,19 +5,56 @@
 @endsection
 
 @section('content')
-	{{-- titulo --}}
-	<div class="col-md-8">
-		<h1 class="my-4">Comida del día<br>
-			<small>Publicaciones recientes</small>
-		</h1>	
+	<div class="col-sm-8">
+		<!-- post -->
+		<div class="row">
+			<div class="col-sm-12">
+				<!-- title -->
+				<h1 class="my-4">Comida del día<br>
+					<small>Publicaciones recientes</small>
+				</h1>
+				<!-- content -->
+				
+			</div>
+		</div>
+		<!-- comments section title-->
+		<div class="row">
+			<div class="col-sm-12">
+				<h3>User Comment Example</h3>
+			</div><!-- /col-sm-12 -->
+		</div>
+		<!-- comment box -->
+		<div class="row">
+			<div class="col-sm-2">
+				comment box
+			</div>
+			<div class="col-sm-8">
+				comment box
+			</div>
+		</div>
+		<!-- previous loaded comments -->
+		<div class="row">
+			<!-- thumbnail -->
+			<div class="col-sm-2">
+				<div class="thumbnail">
+					<img class="img-fluid img-thumbnail user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+				</div><!-- /thumbnail -->
+			</div><!-- /col-sm-1 -->
+			<!-- comment text -->
+			<div class="col-sm-8">
+				<div class="card">
+					<div class="card-title">
+						<strong>myusername</strong> <span class="text-muted">commented 5 days ago</span>
+					</div>
+					<div class="card-text">
+						Panel content
+					</div><!-- card-text -->
+				</div><!-- card -->
+			</div><!-- /col-sm-5 -->
+
+		</div><!-- /row -->
+	
 	</div>
-	{{-- calificaciones --}}
-	
-	{{-- imagenes --}}
-	
-	{{-- descripcion --}}
-	
-	{{-- comentarios --}}
 @endsection
 
 @section('sidebar')

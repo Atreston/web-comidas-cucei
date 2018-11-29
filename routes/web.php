@@ -16,6 +16,6 @@ Route::get('/', function () {
 });
 
  Route::get('/home', function () {
-	return view('test-profile');
+	return view('test-user-profile');
 });
 
