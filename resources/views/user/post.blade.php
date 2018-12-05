@@ -1,7 +1,7 @@
-@extends('test-master')
+@extends('layouts.master')
 
 @section('navbar')
-	@include('test-include-nav')
+	@include('includes.navbar')
 @endsection
 
 @section('content')
@@ -95,5 +95,5 @@
 @endsection
 
 @section('footer')
-	@include('test-include-footer-alt')
+	@include('includes.footer-alt')
 @endsection
