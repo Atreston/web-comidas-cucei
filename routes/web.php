@@ -11,10 +11,20 @@
 |
 */
 
+//Route::get('/', function () {
+    //return view('welcome');
+//});
+
+//Route::get('/home', function () {
+	//return view('user.profile');
+//});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/', function () {
-    return view('welcome');
+	return view('user.postForm');
 });
 
-Route::get('/home', function () {
-	return view('posts.index');
-});
+Route::resource('posts', 'PostController');
